@@ -1,0 +1,20 @@
+function [y1,T1,T2,y5] = fcn(u)
+
+if  u<2
+    y1=2.8077;
+    y5=y1;
+elseif u<4
+    y1=1.1163;
+    y5=y1;
+elseif u<4.26
+    y1=1.6843;
+    y5=y1;
+elseif u<4.52
+    y1=2.2396;
+    y5=y1;
+else 
+    y1=2.40;
+    y5=y1;
+end
+T1=-1.6;
+T2=T1;
